@@ -1,0 +1,97 @@
+package com.sh.test.star;
+
+import java.util.Arrays;
+
+public class Star {
+
+	public static void main(String[] args) {
+		
+		Star s = new Star();
+  		s.test1();
+	  	s.test2();
+		  s.test3();
+//		s.test4();  // 아직못함
+		
+	}	
+		
+	public void test1() {	// @실습문제1 
+
+		for(int i=0; i<5; i++) {
+			for(int j=5; j>i; j--) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+	}
+	
+	
+	public void test2() { //  @실습문제2
+		
+		for(int i=0; i<5; i++) {
+			for(int j=0; j<=i; j++) {
+				System.out.print("*");
+			}
+			
+			System.out.println();
+		}
+		
+		
+		
+	}
+	
+	public void test3() { //  @실습문제3 
+		
+		
+		for(int i=5; i>0; i--) { 
+ 			for(int j=1; j<=5; j++) {
+ 				
+ 				if(i>j) {
+ 					System.out.print(" ");
+ 				}
+ 				else if(i<=j) {
+ 					System.out.print("*");
+ 				}
+ 			}	
+ 		 System.out.println();
+		}
+    
+	}
+		
+	
+
+	public void test4() {
+	}
+		
+}
+
+
+/* 
+ * 1번
+ 
+		*****
+		****
+		***
+		**
+		* 
+ 
+  
+ * 2번
+	*
+	**
+	***
+	****
+	*****  
+  
+  
+  
+ * 3번
+
+    *
+   **
+  ***
+ **** 
+*****
+
+
+*/
