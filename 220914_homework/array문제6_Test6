@@ -31,6 +31,8 @@ public class Test6 { // [문제6]
 	
 	// 출력
 	System.out.println( Arrays.toString(num));
+	// 출력 방법2 (근데 이거는 1 2 3 4 5 이런식으로만 나오고, [ ] 랑 , 가 안나옴 ,, 어떻게 나오게 하지 ? 
+	System.out.print( num[i] + " ");
 
 	}
 }
