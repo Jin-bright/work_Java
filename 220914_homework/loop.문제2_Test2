@@ -23,6 +23,11 @@ public class Test2 {
 			return;
 		} // num이 양수인지 확인 
 		
+/*
+for문 또다른 방법  
+	for(int i=0; i<num ; i++ ) {
+		for(int j=0; j<(num-i); j++ ) {
+*/
 		for(int i=num; i>=1; i--) {
 			for(int j=1; j<=i; j++ ) {
 				System.out.print("*");
