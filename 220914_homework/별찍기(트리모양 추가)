@@ -61,6 +61,18 @@ public class Star {
 	
 
 	public void test4() {
+	
+		for(int i=1; i<6; i++ ) {
+			
+			for(int b=5; b>i; b-- ) {
+				System.out.print(" ");
+			} // 공백 출력 for문 
+			
+			for(int j=1; j<=(i*2-1); j++) { //j 2, j<=3
+				System.out.print("*");
+			} // 별찍기 for문  
+		System.out.println();
+		} // 바깥 for문 
 	}
 		
 }
@@ -93,5 +105,13 @@ public class Star {
  **** 
 *****
 
+
+*4번
+
+    *     
+   ***    
+  *****   
+ *******  
+********* 
 
 */
